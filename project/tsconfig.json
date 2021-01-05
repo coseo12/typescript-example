@@ -5,7 +5,11 @@
     "outDir": "./dist",
     "moduleResolution": "Node",
     "lib": ["ES2015", "DOM", "DOM.Iterable"],
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules", "dist"]
