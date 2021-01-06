@@ -1,3 +1,6 @@
+import axios from 'axios';
+import * as Chart from 'chart.js';
+
 // utils
 function $(selector: string): Element | null {
   return document.querySelector(selector);

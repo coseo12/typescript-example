@@ -17,7 +17,6 @@
    - babel, eslint, prettier 등의 환경 설정
 4. 외부 라이브러리 모듈화
    
-
 ## 참고자료
 
 - [존스 홉킨스 코로나 현황](https://coronavirus.jhu.edu/map.html)
