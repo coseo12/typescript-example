@@ -34,7 +34,7 @@ function createSpinnerElement(id: string): HTMLDivElement {
 
 // state
 let isDeathLoading = false;
-let isRecoveredLoading = false;
+const isRecoveredLoading = false;
 
 // api
 function fetchCovidSummary() {
@@ -104,7 +104,7 @@ async function handleListClick(event: any) {
   isDeathLoading = false;
 }
 
-function setDeathsList(data: object[]) {
+function setDeathsList(data: any) {
   const sorted = data.sort(
     (a: any, b: any) => getUnixTimestamp(b.Date) - getUnixTimestamp(a.Date)
   );
