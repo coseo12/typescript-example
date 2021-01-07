@@ -1,17 +1,16 @@
 {
   "compilerOptions": {
-    "allowJs": false,
+    "allowJs": true,
     "target": "ES2015",
     "outDir": "./dist",
     "moduleResolution": "Node",
     "lib": ["ES2015", "DOM", "DOM.Iterable"],
     "noImplicitAny": true,
-    "typeRoots": ["node_modules/@types", "types"]
-    // "strict": true,
-    // "strictNullChecks": true,
-    // "strictFunctionTypes": true,
-    // "strictBindCallApply": true
+    "typeRoots": ["node_modules/@types", "types"],
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true
   },
   "include": ["./src/**/*"],
-  "exclude": ["node_modules", "dist"]
 }
